@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>王嘉欣 - 个人简历 | 运营专员 / 行政专员</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .glass-card {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen relative overflow-x-hidden selection:bg-indigo-500 selection:text-white">
+
+    <!-- 背景装饰光源 -->
+    <div class="fixed top-0 left-1/4 w-96 h-96 bg-sky-500/10 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="fixed bottom-0 right-1/4 w-96 h-96 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+    <!-- 顶部导航 -->
+    <nav class="sticky top-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="text-xl font-bold gradient-text">王嘉欣 . Portfolio</span>
+            <div class="space-x-6 text-sm text-slate-400">
+                <a href="#about" class="hover:text-sky-400 transition">关于我</a>
+                <a href="#experience" class="hover:text-sky-400 transition">工作经历</a>
+                <a href="#skills" class="hover:text-sky-400 transition">专业技能</a>
+                <a href="#deploy" class="hover:text-sky-400 transition text-sky-400 font-medium">GitHub Pages 部署指南</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-5xl mx-auto px-6 py-12 space-y-16">
+
+        <!-- 个人 Header 区域 -->
+        <section id="about" class="glass-card rounded-2xl p-8 md:p-10 relative overflow-hidden">
+            <div class="flex flex-col md:flex-row items-center gap-8">
+                <div class="w-32 h-32 rounded-full overflow-hidden border-2 border-sky-500/40 p-1 flex-shrink-0 bg-slate-800">
+                    <div class="w-full h-full rounded-full bg-slate-700 flex items-center justify-center text-4xl text-sky-400 font-bold">
+                        嘉欣
+                    </div>
+                </div>
+                <div class="space-y-4 text-center md:text-left flex-grow">
+                    <div>
+                        <h1 class="text-3xl md:text-4xl font-bold text-white">王嘉欣</h1>
+                        <p class="text-sky-400 font-medium mt-1">求职意向：运营专员 / 行政专员</p>
+                    </div>
+                    <p class="text-slate-300 text-sm md:text-base leading-relaxed">
+                        拥有 3 年部门运营、行政支持、文控及数据处理经验。做事细致严谨、沟通顺畅、执行力强。擅长会务组织、文档管理、数据统计与跨部门协调，能稳定高效地为团队提供运营支持。
+                    </p>
+                    <div class="flex flex-wrap gap-4 pt-2 justify-center md:justify-start text-xs md:text-sm text-slate-400">
+                        <span class="flex items-center gap-1.5"><i class="fa-solid fa-phone text-sky-400"></i> 18806082792</span>
+                        <span class="flex items-center gap-1.5"><i class="fa-solid fa-envelope text-sky-400"></i> 2801090694@qq.com</span>
+                        <span class="flex items-center gap-1.5"><i class="fa-solid fa-location-dot text-sky-400"></i> 福建省三明市</span>
+                        <span class="flex items-center gap-1.5"><i class="fa-solid fa-graduation-cap text-sky-400"></i> 本科 / 机械设计制造及其自动化</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 关键量化数据展示卡片 -->
+        <section class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="glass-card p-6 rounded-xl border-l-4 border-l-sky-500">
+                <p class="text-slate-400 text-xs font-medium">根因问题识别与解决</p>
+                <p class="text-3xl font-bold text-white mt-2">26 <span class="text-lg text-sky-400">项</span></p>
+                <p class="text-slate-400 text-xs mt-1">搭建质量数据看板，精准定位根因</p>
+            </div>
+            <div class="glass-card p-6 rounded-xl border-l-4 border-l-indigo-500">
+                <p class="text-slate-400 text-xs font-medium">来料不良率优化</p>
+                <p class="text-3xl font-bold text-white mt-2">↓ 16<span class="text-lg text-indigo-400">%</span></p>
+                <p class="text-slate-400 text-xs mt-1">持续跟进质量管控，大幅降低风险</p>
+            </div>
+            <div class="glass-card p-6 rounded-xl border-l-4 border-l-emerald-500">
+                <p class="text-slate-400 text-xs font-medium">产线缺陷率降低</p>
+                <p class="text-3xl font-bold text-white mt-2">↓ 13<span class="text-lg text-emerald-400">%</span></p>
+                <p class="text-slate-400 text-xs mt-1">优化流程落地，保障质量与产出效率</p>
+            </div>
+        </section>
+
+        <!-- 工作经历 -->
+        <section id="experience" class="space-y-6">
+            <h2 class="text-2xl font-bold text-white flex items-center gap-3">
+                <i class="fa-solid fa-briefcase text-sky-400"></i> 工作经历
+            </h2>
+
+            <div class="glass-card p-8 rounded-xl space-y-6">
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-center border-b border-slate-800 pb-4">
+                    <div>
+                        <h3 class="text-xl font-bold text-white">立达信科技物联股份有限公司</h3>
+                        <p class="text-sky-400 text-sm mt-0.5">质量运营</p>
+                    </div>
+                    <span class="text-slate-400 text-xs bg-slate-800 px-3 py-1 rounded-full mt-2 md:mt-0">2022.09 - 2025.10</span>
+                </div>
+
+                <ul class="space-y-3 text-slate-300 text-sm leading-relaxed">
+                    <li class="flex items-start gap-2">
+                        <span class="text-sky-400 font-bold">•</span>
+                        <span><strong>质量数据分析与看板搭建：</strong> 搭建质量数据看板，识别并解决根因问题 26 项，成功使来料不良率下降 16%、产线缺陷率下降 13%。</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-sky-400 font-bold">•</span>
+                        <span><strong>文档与文控管理：</strong> 负责项目/部门文件的整理、归档、版本管控与资料更新，确保部门文件规范可查。</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-sky-400 font-bold">•</span>
+                        <span><strong>报表制作与数据支撑：</strong> 熟练运用 Excel 完成每日/每周数据统计、报表制作及周报/月报输出，为部门管理提供数据支撑。</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-sky-400 font-bold">•</span>
+                        <span><strong>会务统筹与落地：</strong> 统筹安排部门重大会议，撰写高质量会议纪要，跟进会议待办事项并推进闭环落地。</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-sky-400 font-bold">•</span>
+                        <span><strong>日常行政与跨部门协调：</strong> 负责
